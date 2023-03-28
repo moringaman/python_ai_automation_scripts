@@ -6,7 +6,7 @@ import os
 import openai
 import pywhatkit as kit
 
-kit.start_server()
+# kit.start_server()
 
 # Initialize OpenAI
 openai.api_key = os.getenv('OPEN_AI_KEY')
